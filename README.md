@@ -1,1 +1,3 @@
-# Django_React_Project
+## Project Workflow
+
+This project consists of a backend built with Django and a frontend created with React.js. The backend utilizes SQLite as the database and the Django Rest Framework (DRF) to expose RESTful APIs. The database contains details of various anime series. To display these details on the frontend, React.js makes API calls to the DRF endpoints. Users can view the list of anime series and their details on the frontend. However, to insert new anime details into the database, an admin must run the Django server, create a superuser, and use the Django admin panel to add new entries. This separation of data entry and display ensures a secure and streamlined workflow. The Django admin panel provides a user-friendly interface for database management, while the React frontend ensures a responsive and dynamic user experience.
